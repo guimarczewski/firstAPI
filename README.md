@@ -1,4 +1,10 @@
-# Nossa primeira API
+# First API
+
+Instalando com Docker:
+
+```
+docker compose up --build
+```
 
 Instalando da maneira tradicional:
 
@@ -39,8 +45,3 @@ $ pip install -r requirements.txt
 $ uvicorn main:app --reload
 ```
 
-Instalando com Docker:
-
-```
-docker compose up --build
-```
